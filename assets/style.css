@@ -124,12 +124,17 @@ header {
 /* Code CSS en prévision de l'ajout d'un carousel pour la bannière */
 /* Gestion des fleches du carrousel */
 #banner .arrow {
+	top: 170px;
 	position: absolute;
+	justify-content: space-between;
+    width: 100%;
+	display: flex;
+	
 }
-#banner .arrow_left {
+#banner .arrowLeft {
 	left: 10px;
 }
-#banner .arrow_right {
+#banner .arrowRight {
 	right: 10px;
 }
 /* Gestion des points du carrousel */
@@ -160,6 +165,9 @@ header {
 	text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 	text-align: center;
 }
+
+
+
 #banner span {
 	display: block;
 	font-weight: 400;
